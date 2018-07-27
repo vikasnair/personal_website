@@ -1,0 +1,79 @@
+body {
+	font-family: 'Futura', sans-serif;	
+	margin: 2.5%;
+}
+
+#top {
+	margin-bottom: 50px;
+}
+
+#top img {
+	height: 40px;
+	margin-right: 10px;
+	vertical-align: middle;
+	width: auto;
+
+}
+
+#signature, #social {
+	display: inline-block;
+}
+
+#signature {
+	font-weight: bold;
+	font-style: italic;
+}
+
+#social {
+	float: right;
+}
+
+#social a {
+	margin-right: 5px;
+}
+
+#gh {
+	color: #212529; /*#4078c0;*/
+}
+
+#in {
+	color: #0077B5;
+}
+
+#jb {
+	color: #ffbf00;
+}
+
+#info .text-content {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+#info .section-head {
+	font-style: normal;
+}
+
+.text-content {
+	margin-bottom: 25px;
+}
+
+.text-content ul {
+	list-style-type: none;
+	padding: 0;
+	color: grey;
+	font-style: italic;
+}
+
+.text-content li {
+	margin-bottom: 20px;
+}
+
+.text-content a {
+	color: black;
+	font-style: normal;
+}
+
+.section-head {
+	color: grey;
+	margin-bottom: 20px;
+}
