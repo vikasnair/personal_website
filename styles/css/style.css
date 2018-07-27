@@ -12,7 +12,6 @@ body {
 	margin-right: 10px;
 	vertical-align: middle;
 	width: auto;
-
 }
 
 #signature, #social {
@@ -54,7 +53,8 @@ body {
 }
 
 .text-content {
-	margin-bottom: 25px;
+	margin-bottom: 50px;
+	margin-right: 25%;
 }
 
 .text-content ul {
