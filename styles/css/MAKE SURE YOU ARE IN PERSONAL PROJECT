@@ -1,5 +1,0 @@
-FROM THE ROOT PERSONAL PROJECT DIRECTORY:
-
-git add .
-git commit -m 'added html + css'
-git push
