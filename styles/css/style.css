@@ -94,6 +94,11 @@ body {
 		margin: 10%;
 	}
 
+	#top img {
+		height: 100px;
+		margin-right: 30px;
+	}
+
 	#top, .text-content {
 		margin-bottom: 10%;
 	}
