@@ -1,5 +1,8 @@
+@import url("https://use.typekit.net/xkc7zmp.css");
+
 body {
-	font-family: 'Futura', sans-serif;	
+	font-family: 'futura-pt', sans-serif;
+	font-weight: 500;
 	margin: 2.5%;
 	font-size: 14pt;
 }
@@ -21,7 +24,7 @@ body {
 }
 
 #signature {
-	font-weight: bold;
+	font-weight: 600;
 	font-style: italic;
 }
 
