@@ -1,10 +1,22 @@
 @import url("https://use.typekit.net/xkc7zmp.css");
 
+::selection {
+    background-color: #79FFE1;
+    color: #000;
+}
+
+html, body { 
+	background-color: white;
+	color: black;
+}
 body {
-	font-family: 'futura-pt', sans-serif;
+	font-family: '-apple-system', 'Helvetica Neue', 'Segoe UI', sans-serif;
 	font-weight: 500;
 	margin: 2.5%;
-	font-size: 14pt;
+	font-size: 14px;
+	text-rendering: 'optimizeLegibility';
+	-webkit-font-smoothing: 'antialiased';
+	padding-bottom: 6rem;
 }
 
 #top, .text-content {
@@ -25,15 +37,20 @@ body {
 
 #signature {
 	font-weight: 600;
-	font-style: italic;
+	/* font-style: italic; */
 }
 
 #social a {
 	margin-right: 5px;
+	/* color: #D400FF; */
+}
+
+#jukebox {
+	color: #ff9500;
 }
 
 #gh {
-	color: #212529; /*#4078c0;*/
+	color: #212529;
 }
 
 #in {
@@ -68,9 +85,16 @@ body {
 	margin-bottom: 20px;
 }
 
-.text-content a {
-	color: black;
+a {
 	font-style: normal;
+}
+
+a:link {
+	color: black;
+}
+
+a:hover, .text-content a:visited {
+	color: #D400FF;
 }
 
 .section-head {
