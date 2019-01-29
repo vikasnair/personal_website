@@ -35,6 +35,11 @@ body {
 	vertical-align: middle;
 }
 
+#logo {
+	height: 30px;
+	width: auto;
+}
+
 #signature {
 	font-weight: 600;
 	/* font-style: italic; */
