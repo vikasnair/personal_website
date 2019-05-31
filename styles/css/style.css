@@ -2,25 +2,37 @@
 
 ::selection {
     background-color: #79FFE1;
-    color: #000;
+    color: #fff;
 }
 
-html, body { 
-	background-color: white;
-	color: black;
+html, body {
+	background-color: black;
+	color: white;
 }
+
 body {
-	font-family: '-apple-system', 'Helvetica Neue', 'Segoe UI', sans-serif;
+	font-family: 'Lucida Console', Monaco, monospace;
+	/* font-family: '-apple-system', 'Helvetica Neue', 'Segoe UI', sans-serif; */
 	font-weight: 500;
-	margin: 2.5%;
-	font-size: 14px;
+	margin: 2.5rem;
+	font-size: 13px;
 	text-rendering: 'optimizeLegibility';
 	-webkit-font-smoothing: 'antialiased';
 	padding-bottom: 6rem;
 }
 
+#top {
+	background-color: #79FFE1;
+	color: black;
+	padding: 10px;
+}
+
+#top a:link, #top a:hover, #top a:visited {
+	color: black;
+}
+
 #top, .text-content {
-	margin-bottom: 2.5%;
+	margin-bottom: 2.5rem;
 }
 
 #top img {
@@ -33,6 +45,7 @@ body {
 #logo, #me {
 	display: inline-block;
 	vertical-align: middle;
+	line-height: 25px;
 }
 
 #logo {
@@ -41,6 +54,7 @@ body {
 }
 
 #signature {
+	font-size: 15px;
 	font-weight: 600;
 	/* font-style: italic; */
 }
@@ -50,11 +64,11 @@ body {
 	/* color: #D400FF; */
 }
 
-#jukebox {
+/* #jukebox {
 	color: #ff9500;
-}
+} */
 
-#gh {
+/* #gh {
 	color: #212529;
 }
 
@@ -64,7 +78,7 @@ body {
 
 #em {
 	color: red;
-}
+} */
 
 #info .text-content {
 	display: inline-block;
@@ -75,14 +89,10 @@ body {
 	font-style: normal;
 }
 
-.text-content {
-	margin-right: 25%;
-}
-
 .text-content ul {
 	list-style-type: none;
 	padding: 0;
-	color: grey;
+	color: white;
 	font-style: italic;
 }
 
@@ -94,12 +104,12 @@ a {
 	font-style: normal;
 }
 
-a:link {
-	color: black;
+a:link, a:hover {
+	color: #D400FF;
 }
 
-a:hover, .text-content a:visited {
-	color: #D400FF;
+a:visited {
+	color: #E95678;
 }
 
 .section-head {
@@ -107,14 +117,14 @@ a:hover, .text-content a:visited {
 	/*margin-bottom: 20px;*/
 }
 
-@media only screen 
-  and (min-device-width: 320px) 
+@media only screen
+  and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2),
 
-  only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
+  only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1)
 
   {
