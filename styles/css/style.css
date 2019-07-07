@@ -11,8 +11,8 @@ html, body {
 }
 
 body {
-	font-family: 'Lucida Console', Monaco, monospace;
-	/* font-family: '-apple-system', 'Helvetica Neue', 'Segoe UI', sans-serif; */
+	font-family: itc-avant-garde-gothic-pro, '-apple-system', 'Helvetica Neue', 'Segoe UI', sans-serif;
+	font-style: normal;
 	font-weight: 500;
 	margin: 2.5rem;
 	font-size: 13px;
