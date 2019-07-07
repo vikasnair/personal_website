@@ -22,13 +22,13 @@ body {
 }
 
 #top {
-	background-color: #79FFE1;
-	color: black;
+	/* background-color: #79FFE1; */
+	/* color: black; */
 	padding: 10px;
 }
 
 #top a:link, #top a:hover, #top a:visited {
-	color: black;
+	color: white;
 }
 
 #top, .text-content {
@@ -55,7 +55,7 @@ body {
 
 #signature {
 	font-size: 15px;
-	font-weight: 600;
+	/* font-weight: 600; */
 	/* font-style: italic; */
 }
 
