@@ -11,7 +11,7 @@
 	--secondaryFontFamily: itc-avant-garde-gothic-pro, sans-serif;
 
 	--primaryFontSize: 24px;
-	--secondaryFontSize: 18px;
+	--secondaryFontSize: 14px;
 
 	--primaryMargin: 75px;
 	--secondaryMargin: 50px;
@@ -93,7 +93,7 @@ body {
   and (-webkit-min-device-pixel-ratio: 1) {
 	:root {
 		--primaryFontSize: 48px;
-		--secondaryFontSize: 36px;
+		--secondaryFontSize: 28px;
 
 		--primaryMargin: 144px;
 		--secondaryMargin: 100px;
